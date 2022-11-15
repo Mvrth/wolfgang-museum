@@ -3,7 +3,7 @@ import BlockItem from './BlockItem';
 
 const BlockList = ({ blocks }) => {
   return (
-    <div>
+    <div className="block-list">
       {blocks.map((block) => (
         <BlockItem block={block} />
       ))}

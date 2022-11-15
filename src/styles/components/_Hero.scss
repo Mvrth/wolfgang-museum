@@ -1,15 +1,20 @@
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
     url('../../assets/hero.webp');
-  height: 100vh;
+  height: 70vh;
   width: auto;
+  overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  justify-content: center;
 
   .logo {
-    padding: 2rem;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 85%;
+      margin-top: 15vh;
+    }
   }
 }
